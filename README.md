@@ -105,10 +105,6 @@ npm run preview
 npm run lint
 ```
 
-## License
-
-[MIT](LICENSE)
-
 ## Contributing
 
 1. Fork the repository
