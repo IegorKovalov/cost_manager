@@ -1,0 +1,96 @@
+.reportsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1400px;
+    margin: 20px auto;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.form {
+    width: 25%;
+    padding: 25px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    order: 3;
+}
+
+.inputFields {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+}
+
+.inputFields .MuiTextField-root,
+.inputFields .MuiFormControl-root {
+    width: 100%;
+}
+
+.showReportbutton {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.showReportbutton Button {
+    font-weight: 600;
+    font-size: 0.9rem;
+    width: 100%;
+}
+
+.chartContainer {
+    width: 45%;
+    order: 2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.reportTable {
+    width: 25%;
+    order: 1;
+}
+
+.MuiButton-contained {
+    width: 100%;
+    padding: 10px 0;
+    font-weight: 600;
+}
+
+.MuiAlert-root {
+    width: 100%;
+    margin-top: 10px;
+}
+
+@media (max-width: 1200px) {
+    .reportsContainer {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .form {
+        width: 100%;
+        max-width: 400px;
+        order: 1;
+    }
+
+    .chartContainer {
+        width: 100%;
+        max-width: 800px;
+        order: 2;
+    }
+
+    .reportTable {
+        width: 100%;
+        max-width: 800px;
+        order: 3;
+    }
+}
